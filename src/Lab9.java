@@ -34,7 +34,7 @@ public class Lab9 {
 				userInput = scan.next();
 				
 				try {
-					if (menu.containsKey(userInput)) { // case-sensitive- unsure of how to ignore case for ArrayLists
+					if (menu.containsKey(userInput)) {
 						validateInput = true;
 					} else {
 						validateInput = false;
